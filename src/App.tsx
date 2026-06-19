@@ -69,7 +69,7 @@ export default function App() {
         startVelocity: 28,
         origin: { y: 0.72 },
       });
-      removeNumber(winner);
+      
     }, 180);
   }
 
@@ -101,21 +101,17 @@ export default function App() {
     setIsSpinning(false);
   }
 
-  const removeNumber = (number) => {
-    setNumbers(prev => prev.filter(n => n !== number));
-  };
-
+  
   return (
     <main className="app-shell">
       <div className="background-orb orb-one" />
       <div className="background-orb orb-two" />
 
       <header className="hero compact-hero">
-        <p className="eyebrow">Interactive Bingo Experience</p>
-        <h1>Ruleta Bingo 1-75</h1>
+        <p className="eyebrow">'''''''''''''''''''''''''''''</p>
+        <h1>Ruleta Bingo!</h1>
         <p>
-          Ruleta dinámica con animación real, historial, confeti y sonido
-          opcional.
+          :D
         </p>
       </header>
 
