@@ -381,27 +381,27 @@
 
 .letter-B {
   background: rgba(239, 68, 68, 0.25);
-  color: #fecaca;
+  color: #ea7070;
 }
 
 .letter-I {
   background: rgba(245, 158, 11, 0.25);
-  color: #fde68a;
+  color: #e0751d;
 }
 
 .letter-N {
   background: rgba(34, 197, 94, 0.25);
-  color: #bbf7d0;
+  color: #06d950a5;
 }
 
 .letter-G {
   background: rgba(34, 211, 238, 0.25);
-  color: #a5f3fc;
+  color: #0f8895eb;
 }
 
 .letter-O {
   background: rgba(168, 85, 247, 0.25);
-  color: #e9d5ff;
+  color: #7042dae8;
 }
 
 .bingo-numbers {
@@ -426,7 +426,7 @@
 }
 
 .history-number.is-drawn {
-  color: white;
+  color: rgba(25, 13, 13, 0.1);
   background: rgba(250, 204, 21, 0.22);
 }
 
